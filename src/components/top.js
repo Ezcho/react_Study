@@ -22,6 +22,7 @@ function Banner() {
               <NavDropdown.Item href="#action3">자바</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action4">Unity</NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item href="#action4">일상</NavDropdown.Item>
             </NavDropdown>
             
@@ -39,7 +40,7 @@ function Banner() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="글 검색"
               className="me-2"
               aria-label="Search"
             />

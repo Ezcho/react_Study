@@ -8,6 +8,8 @@ function Layout() {
     <p>
       <p class = "left">
         <span className = 'left'>
+          <div className = "top"></div>
+      
           <img src = "img/img1.jpg" alt ="img1" className = "profile_pic"/>
           <br/>
           <b className='h1'>Dongyoungcho</b>
@@ -15,43 +17,57 @@ function Layout() {
           <b className='h2'>Seoultech </b>
           <br/>
           <b className='h2'>Computer Science </b>
-        </span>
+          <br/>
+          <img src = "img/kakaotalk.png" className="contact" a href = "#!"/>
+          
+          <br/>
+         <img src = "img/maps.png" className="contact"/>
+        <b className = 'h2'>서울시 노원구 공릉동 593-5</b>
+         
+         </span>
+         
+         
+         
       </p>
-      <p class = "rigth">
+      <p class= "rigth">
+        <div className = "ingi">인기글</div>
+        
         <table className = "img">
           <tr>
             <td>
               <img src = "img/img3.jpg" className="hot"/>
-              <br/>[Java]Java의 Object클래스
+              <br/><a href="#!" className = "hot_text">[java]Java의 Object클래스</a>
               
             </td>
             <td>
               <img src = "img/img2.jpg" className="hot"/>
-              <br/>[Unity]작업 환경 구성하기
+              <br/><a href="#!"className = "hot_text">[Unity]작업 환경 구성하기</a>
             </td>
             <td>
               <img src = "img/img4.jpg" className="hot"/>
-              <br/>[일상]오리를 맛있게 굽는 법
+              <br/><a href="#!"className = "hot_text">[일상]M2 Macbook Pro 언박싱!</a>
             </td>
           </tr>
           <tr>
             <td>
               <img src = "img/img5.jpg" className="hot"/>
-              <br/>[일상]부산으로의 여행
+              <br/><a href="#!"className = "hot_text">[Unity]작업 환경 구성하기</a>
               
             </td>
             <td>
               <img src = "img/img6.jpg" className="hot"/>
-              <br/>[Java]Java lang패키지
+              <br/><a href="#!"className = "hot_text">[Java]Java lang패키지</a>
             </td>
             <td>
               <img src = "img/img7.jpg" className="hot"/>
-              <br/>[BOJ]피보나치킨
+              <br/><a href="#!"className = "hot_text">피보나치킨</a>
             </td>
           </tr>
 
 
         </table>
+
+        <hr/>
 
 
 
