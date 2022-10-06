@@ -19,9 +19,10 @@ function Banner() {
           >
             <Nav.Link href="#action1">Home</Nav.Link>
             <NavDropdown title="Category" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Cats</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">자바</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action4">Puppy</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Unity</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">일상</NavDropdown.Item>
             </NavDropdown>
             
             <NavDropdown title="Contact us" id="navbarScrollingDropdown">

@@ -1,8 +1,7 @@
-import './App.css';
-
-
 import Banner from './components/top';
-import ResponsiveAutoExample from './layout';
+import Layout from './Layout';
+import Footer from './Footer';
+
 
 
 
@@ -10,7 +9,8 @@ function App() {
   return (
     <div>
       <Banner />
-      <ResponsiveAutoExample />
+      <Layout />
+      <Footer />
     </div>
   );
 }
