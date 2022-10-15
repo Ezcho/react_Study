@@ -1,0 +1,25 @@
+.search{
+    position:absolute;
+    right:0%;
+    width:90%;
+    height: 90%;
+    background-color:rgb(204, 231, 252);
+    text-align: center;
+    font-family: monospace;
+}
+.position{
+    top:30%;
+}
+.container-1 input#search{
+    width: 700px;
+    height: 70px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    float: center;
+    color: #b4c1ce;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
